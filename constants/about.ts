@@ -9,7 +9,7 @@ export const ABOUT_HERO_CONTENT = {
   description:
     "Welcome to Lyseibug, we're here to help you achieve your business goals and take your brand to new heights in the digital landscape.",
   image: {
-    src: "https://yaseen-personal-work.s3.ap-south-1.amazonaws.com/lyseibug/about-us.webp",
+    src: "https://yaseen-personal-work.s3.ap-south-1.amazonaws.com/lyseibug/about-us-v2.webp",
     alt: "Team celebrating around a laptop",
   },
 } as const;
@@ -21,7 +21,7 @@ export const ABOUT_CONTENT = {
     "We are a technology-driven software agency dedicated to transforming business ideas into powerful digital solutions. From startups to enterprises, we craft tailored applications that boost efficiency, scalability, and customer satisfaction.",
   cta: { label: "More about us", href: "/about" },
   image: {
-    src: "https://yaseen-personal-work.s3.ap-south-1.amazonaws.com/lyseibug/about-us.webp",
+    src: "https://yaseen-personal-work.s3.ap-south-1.amazonaws.com/lyseibug/about-us-v2.webp",
     alt: "Developers collaborating on software projects",
   },
   stats: [
