@@ -7,6 +7,7 @@ import WhyUs from "@/components/WhyUs";
 import CTA from "@/components/CTA";
 import { SITE_URL, buildOpenGraph, buildTwitterCard } from "@/constants/seo";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 export const metadata: Metadata = {
   title: "Software Development Company | Web, Mobile, ERP | Lyseibug",
@@ -30,6 +31,7 @@ export default function Home() {
   return (
     <>
       <Analytics />
+      <SpeedInsights />
       <Hero />
       <About />
       <Services />
