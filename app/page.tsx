@@ -6,6 +6,7 @@ import WhyUs from "@/components/WhyUs";
 // import CaseStudies from "@/components/CaseStudies";
 import CTA from "@/components/CTA";
 import { SITE_URL, buildOpenGraph, buildTwitterCard } from "@/constants/seo";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "Software Development Company | Web, Mobile, ERP | Lyseibug",
@@ -28,6 +29,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      <Analytics />
       <Hero />
       <About />
       <Services />
