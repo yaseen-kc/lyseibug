@@ -32,10 +32,10 @@ export default function WhyUs() {
                     {index + 1}
                   </div>
 
-                  <h3 className="text-base font-semibold leading-7 text-indigo-900 md:text-lg">
+                  <h3 className="pl-2 text-base font-semibold leading-7 text-indigo-900 md:text-lg">
                     {item.title}
                   </h3>
-                  <p className="mt-1 text-sm leading-6 text-slate-600 md:text-base">
+                  <p className="pl-2 mt-1 text-sm leading-6 text-slate-600 md:text-base">
                     {item.description}
                   </p>
                 </div>
