@@ -140,6 +140,7 @@ export const FOOTER_CONTENT = {
       title: "Utility",
       links: [
         { label: "FAQs", href: "/faq" },
+        {label: "Privacy & Policy", href:"/privacy-policy"}
       ],
     },
     {
@@ -190,4 +191,12 @@ export const FAQ_CONTENT = {
       a: "We choose modern, proven stacks based on the problem—covering web, mobile, backend, and cloud. We prioritize reliability and long-term maintainability.",
     },
   ],
+} as const;
+
+export const PRIVACY_POLICY_CONTENT = {
+  badge: "Legal",
+  heading: "Privacy Policy",
+  description:
+    "Learn how Lyseibug collects, uses, and protects your personal data when you use our services.",
+  lastUpdated: "February 03, 2026",
 } as const;
