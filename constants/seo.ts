@@ -6,7 +6,7 @@ export const DEFAULT_SEO = {
   titleTemplate: "%s | " + BRAND_NAME,
   defaultTitle: `${BRAND_NAME} — Software Development, Mobile Apps, ERP`,
   description:
-    "Lyseibug builds SEO-friendly websites, high-performance mobile apps, and scalable ERP systems—backed by proactive IT support—to accelerate your digital growth.",
+    "Lyseibug builds SEO-friendly websites, high-performance mobile apps, and scalable ERP systems, backed by proactive IT support, to accelerate your digital growth.",
   ogImage:
     "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1615&auto=format&fit=crop",
 } as const;
@@ -65,11 +65,29 @@ export function buildWebsiteJsonLd() {
     "@type": "WebSite",
     name: BRAND_NAME,
     url: SITE_URL,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${SITE_URL}/search?q={search_term_string}`,
-      "query-input": "required name=search_term_string",
+  };
+}
+
+export function buildLocalBusinessJsonLd() {
+  const socials = (FOOTER_CONTENT.socials || [])
+    .map((s) => s.href as string)
+    .filter((href): href is string => Boolean(href));
+  return {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: BRAND_NAME,
+    url: SITE_URL,
+    email: FOOTER_CONTENT.contact.email,
+    telephone: FOOTER_CONTENT.contact.phone,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Painattu Complex, Arogyappadi, Vailathur",
+      addressLocality: "Vailathur",
+      addressRegion: "Kerala",
+      postalCode: "676106",
+      addressCountry: "IN",
     },
+    sameAs: socials,
   };
 }
 

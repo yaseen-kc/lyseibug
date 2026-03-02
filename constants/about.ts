@@ -2,9 +2,9 @@ export const ABOUT_HERO_CONTENT = {
   badge: "About us",
   headline: {
     pre: "Your trusted",
-    highlight: "partner",
-    post: "for growing",
-    line2: "your business",
+    highlight: "software development",
+    post: "& IT consulting",
+    line2: "partner",
   },
   description:
     "Welcome to Lyseibug, we're here to help you achieve your business goals and take your brand to new heights in the digital landscape.",
@@ -40,12 +40,12 @@ export const VISION_MISSION_CONTENT = {
   mission: {
     title: "Our Mission",
     description:
-      "to empower businesses like yours to thrive in the digital age. We believe that every brand has a unique story to tell, and we're here to help you tell yours. We'll work hand-in-hand with you to unlock your brand's full potential and drive measurable results that propel your business forward.",
+      "to empower businesses like yours to thrive in the digital age. We believe every project has unique requirements, and we work hand-in-hand with you to build software that unlocks your business potential and delivers measurable results.",
   },
   approach: {
     title: "Our approach",
     description:
-      "What sets us apart is our holistic approach to digital marketing. We don't just focus on one aspect of your online presence - we take a comprehensive view of your brand, your goals, and your target audience to develop customized strategies that deliver real, tangible results.",
+      "What sets us apart is our end-to-end approach to software delivery. We don't just write code; we take a full view of your business goals, technical constraints, and user needs to deliver solutions that fit your context and scale with your growth.",
   },
 } as const;
 

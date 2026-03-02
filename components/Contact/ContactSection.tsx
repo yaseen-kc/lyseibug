@@ -23,8 +23,7 @@ export default function ContactSection() {
         {/* Headline */}
         <div className="text-center">
           <h1 className="mx-auto max-w-5xl text-4xl font-extrabold tracking-tight text-indigo-950 sm:text-5xl md:text-6xl lg:text-7xl">
-            Ready to <span className="text-indigo-700">elevate</span> your
-            digital presence?
+            Contact Lyseibug — Schedule a Free Consultation
           </h1>
           <p className="mx-auto mt-5 max-w-3xl text-sm leading-6 text-slate-700 sm:text-base">
             Whether you have questions about our services, want to discuss your

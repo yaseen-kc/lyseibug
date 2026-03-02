@@ -4,7 +4,7 @@ import { absoluteUrl, buildOpenGraph, buildTwitterCard } from "@/constants/seo";
 import CTA from "@/components/CTA";
 
 export const metadata: Metadata = {
-  title: `FAQs | ${BRAND_NAME}`,
+  title: `Software Development FAQs | ${BRAND_NAME}`,
   description: FAQ_CONTENT.description,
   alternates: { canonical: absoluteUrl("/faq") },
   openGraph: buildOpenGraph({
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: absoluteUrl("/faq"),
   }),
   twitter: buildTwitterCard({
-    title: `FAQs | ${BRAND_NAME}`,
+    title: `Software Development FAQs | ${BRAND_NAME}`,
     description: FAQ_CONTENT.description,
   }),
 };

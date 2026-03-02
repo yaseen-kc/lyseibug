@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import CTA from "@/components/CTA";
-import { BRAND_NAME, PRIVACY_POLICY_CONTENT } from "@/constants/content";
+import { BRAND_NAME, COMPANY_ADDRESS, PRIVACY_POLICY_CONTENT } from "@/constants/content";
 import { absoluteUrl, buildOpenGraph, buildTwitterCard } from "@/constants/seo";
 
 export const metadata: Metadata = {
@@ -108,8 +108,7 @@ export default function PrivacyPolicyPage() {
               <li>
                 <strong>Company</strong> (referred to as either &quot;the
                 Company&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;
-                in this Privacy Policy) refers to {BRAND_NAME}, Thekkum Muri.P.O,
-                Malappuram, Tirur, Kerala 676105.
+                in this Privacy Policy) refers to {BRAND_NAME}, {COMPANY_ADDRESS}.
               </li>
               <li>
                 <strong>Cookies</strong> are small files that are placed on your
@@ -152,12 +151,12 @@ export default function PrivacyPolicyPage() {
               <li>
                 <strong>Website</strong> refers to {BRAND_NAME}, accessible from{" "}
                 <a
-                  href="https://www.lyseibug.com/"
+                  href={absoluteUrl("/")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-indigo-700 underline-offset-2 hover:underline"
                 >
-                  https://www.lyseibug.com/
+                  {absoluteUrl("/")}
                 </a>
                 .
               </li>

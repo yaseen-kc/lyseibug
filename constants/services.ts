@@ -9,12 +9,12 @@ export const SERVICES_HERO_CONTENT = {
     line2: "for modern businesses",
   },
   description:
-    "End-to-end software development company for web, mobile, ERP, and IT support—solving complex challenges, improving efficiency, and accelerating digital growth with measurable ROI.",
+    "End-to-end software development company for web, mobile, ERP, and IT support, solving complex challenges, improving efficiency, and accelerating digital growth with measurable ROI.",
 } as const;
 
 export const SERVICES_CONTENT = {
   badge: "What We Do",
-  heading: "Comprehensive Software & IT Services",
+  heading: "Full Software & IT Services",
   description:
     "From strategy to launch and ongoing support, our full‑stack team helps you innovate, scale, and stay competitive with secure, high‑performance software.",
   items: [
@@ -106,7 +106,7 @@ export const SERVICES_PAGE_LIST: ServicePageItem[] = [
     slug: "it-support-consultancy",
     title: "IT Support & Consultancy",
     description:
-      "Get proactive IT support and strategic guidance to optimize your stack, enhance security, and cut downtime.",
+      "Get proactive IT support and strategic guidance to optimize your stack, strengthen security, and cut downtime.",
     image: {
       src: "https://yaseen-personal-work.s3.ap-south-1.amazonaws.com/lyseibug/services/it-support-and+-consultancy.webp",
       alt: "IT consultant explaining network diagrams to a client",
@@ -124,7 +124,7 @@ export const SERVICES_PROCESS_CONTENT = {
     {
       title: "Discover & Strategize",
       description:
-        "We dive deep into your business goals, challenges, and technical requirements to build a comprehensive project roadmap and strategy.",
+        "We dive deep into your business goals, challenges, and technical requirements to build a detailed project roadmap and strategy.",
     },
     {
       title: "Design & Architect",
@@ -182,12 +182,12 @@ export const SERVICE_DETAILS: Record<string, ServiceDetail> = {
     approach: {
       introTitle: "Our Development Process",
       introText:
-        "We combine cutting-edge technology with proven methodologies to deliver robust web solutions that grow with your business.",
+        "We combine modern technology with proven methodologies to deliver reliable web solutions that grow with your business.",
       steps: [
         { title: "Strategy & Planning", text: "We define project goals, scope, and key functionalities to create a detailed technical roadmap." },
         { title: "UI/UX Design", text: "Our designers craft intuitive and engaging user interfaces that prioritize usability and conversion." },
         { title: "Agile Development", text: "We build your product iteratively with modern frameworks, ensuring quality and flexibility." },
-        { title: "QA & Launch", text: "Rigorous testing and seamless deployment ensure a flawless launch and optimal performance." },
+        { title: "QA & Launch", text: "Rigorous testing and smooth deployment ensure a flawless launch and optimal performance." },
       ],
       whyTitle: "Why Partner With Us",
       whyBullets: [
@@ -218,7 +218,7 @@ export const SERVICE_DETAILS: Record<string, ServiceDetail> = {
     },
     approach: {
       introTitle: "Our App Development Strategy",
-      introText: "We focus on user-centric design and robust engineering to create mobile experiences that stand out in a crowded marketplace.",
+      introText: "We focus on user-centric design and solid engineering to create mobile experiences that stand out in a crowded marketplace.",
       steps: [
         { title: "Concept & Validation", text: "We help refine your idea, define core features, and validate market fit to ensure success." },
         { title: "Native & Cross-Platform", text: "We choose the right technology (Native iOS/Android or Cross-Platform) for your budget and goals." },
@@ -236,7 +236,7 @@ export const SERVICE_DETAILS: Record<string, ServiceDetail> = {
         title: "Have a Game-Changing App Idea?",
         text: "Let's turn your vision into a downloadable reality.",
         primary: { label: "Discuss Your App", href: "/contact" },
-        secondary: { label: "View Our Work", href: "/portfolio" },
+        secondary: { label: "View Our Work", href: "/services" },
       },
     },
   },
@@ -246,7 +246,7 @@ export const SERVICE_DETAILS: Record<string, ServiceDetail> = {
       badge: "Service",
       title: { line1: "ERP", line2: "Solutions" },
       description:
-        "Custom ERP solutions that streamline operations, automate workflows, and provide real‑time visibility—reducing costs and enabling data‑driven decisions.",
+        "Custom ERP solutions that simplify operations, automate workflows, and provide real-time visibility, reducing costs and enabling data-driven decisions.",
       image: {
         src: "https://yaseen-personal-work.s3.ap-south-1.amazonaws.com/lyseibug/services/erp-solutions.webp",
         alt: "Dashboard showing business analytics and KPIs",
@@ -259,14 +259,14 @@ export const SERVICE_DETAILS: Record<string, ServiceDetail> = {
         { title: "Business Process Analysis", text: "We map your current workflows and identify opportunities for optimization and automation." },
         { title: "Solution Design", text: "We configure and customize the ERP platform to match your specific business requirements." },
         { title: "Data Migration", text: "We securely transfer your existing data into the new system with integrity checks and validation." },
-        { title: "Training & Enablement", text: "We provide comprehensive training and documentation to ensure smooth adoption across your team." },
+        { title: "Training & Enablement", text: "We provide thorough training and documentation to ensure smooth adoption across your team." },
       ],
       whyTitle: "Why Our ERP Solutions Stand Out",
       whyBullets: [
         { title: "Industry Expertise", text: "We understand the unique challenges and opportunities within your specific sector." },
         { title: "Customization Capabilities", text: "We tailor the ERP to your processes—not the other way around." },
-        { title: "Integration Proficiency", text: "We seamlessly connect your ERP with existing software ecosystems for unified operations." },
-        { title: "Ongoing Optimization", text: "We provide continuous support, reporting, and enhancements as your business evolves." },
+        { title: "Integration Proficiency", text: "We connect your ERP with existing software ecosystems for unified operations." },
+        { title: "Ongoing Optimization", text: "We provide continuous support, reporting, and improvements as your business evolves." },
       ],
       cta: {
         title: "Ready to Streamline Your Operations?",
@@ -294,8 +294,8 @@ export const SERVICE_DETAILS: Record<string, ServiceDetail> = {
       steps: [
         { title: "Comprehensive Audit", text: "We conduct a thorough analysis of code quality, architecture, and project documentation." },
         { title: "Issue Prioritization", text: "We identify critical problems and create a phased plan for addressing them efficiently." },
-        { title: "Code Refactoring", text: "We improve code structure, implement best practices, and enhance maintainability." },
-        { title: "Testing & Quality Assurance", text: "We implement robust testing protocols to ensure stability and prevent future issues." },
+        { title: "Code Refactoring", text: "We improve code structure, implement best practices, and boost maintainability." },
+        { title: "Testing & Quality Assurance", text: "We implement thorough testing protocols to ensure stability and prevent future issues." },
       ],
       whyTitle: "Why Choose Our Rescue Services",
       whyBullets: [
@@ -308,7 +308,7 @@ export const SERVICE_DETAILS: Record<string, ServiceDetail> = {
         title: "Need to Rescue a Project?",
         text: "Let's diagnose your challenges and create a recovery plan together.",
         primary: { label: "Request Project Audit", href: "/contact" },
-        secondary: { label: "View Case Studies", href: "/case-studies" },
+        secondary: { label: "View Case Studies", href: "/services" },
       },
     },
   },
@@ -326,12 +326,12 @@ export const SERVICE_DETAILS: Record<string, ServiceDetail> = {
     },
     approach: {
       introTitle: "Our Support Methodology",
-      introText: "We provide comprehensive IT services that keep your operations running smoothly while planning for future growth.",
+      introText: "We provide full IT services that keep your operations running smoothly while planning for future growth.",
       steps: [
         { title: "Infrastructure Assessment", text: "We evaluate your current IT environment to identify strengths, weaknesses, and opportunities." },
         { title: "Strategic Roadmapping", text: "We develop a customized technology plan aligned with your short and long-term business goals." },
         { title: "Proactive Monitoring", text: "We implement 24/7 monitoring solutions to detect and resolve issues before they impact your business." },
-        { title: "Continuous Optimization", text: "We regularly review and enhance your systems to improve performance, security, and cost-efficiency." },
+        { title: "Continuous Optimization", text: "We regularly review and improve your systems for better performance, security, and cost-efficiency." },
       ],
       whyTitle: "Why Partner With Us for IT",
       whyBullets: [

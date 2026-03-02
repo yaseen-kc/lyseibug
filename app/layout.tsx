@@ -9,13 +9,11 @@ import {
   SITE_URL,
   buildOpenGraph,
   buildTwitterCard,
+  buildLocalBusinessJsonLd,
   buildOrganizationJsonLd,
   buildWebsiteJsonLd,
 } from "@/constants/seo";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "600", "700"] });
-
-export const dynamic = "force-dynamic";
-export const revalidate = 0;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -79,7 +77,11 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@graph": [buildOrganizationJsonLd(), buildWebsiteJsonLd()],
+              "@graph": [
+                buildOrganizationJsonLd(),
+                buildWebsiteJsonLd(),
+                buildLocalBusinessJsonLd(),
+              ],
             }),
           }}
         />

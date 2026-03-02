@@ -15,7 +15,7 @@ export const HERO_CONTENT = {
     line2: "that drive business growth",
   },
   description:
-    "Lyseibug is a software development agency that builds SEO-friendly websites, high-performance mobile apps, and scalable ERP systems—backed by proactive IT support—to accelerate your digital growth.",
+    "Lyseibug is a software development agency that builds SEO-friendly websites, high-performance mobile apps, and scalable ERP systems, backed by proactive IT support, to accelerate your digital growth.",
 
   ctas: {
     primary: { label: "Start your project", href: "https://cal.com/lyseibug" },

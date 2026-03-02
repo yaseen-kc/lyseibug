@@ -2,6 +2,9 @@ export type NavItem = { label: string; href: string };
 
 export const BRAND_NAME = "Lyseibug";
 
+/** Canonical company address for legal pages and schema */
+export const COMPANY_ADDRESS = "Painattu Complex, Arogyappadi, Vailathur, Kerala, 676106, India";
+
 export const NAV_ITEMS: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
@@ -27,7 +30,7 @@ export const WHY_US_CONTENT = {
     {
       title: "Proven Expertise",
       description:
-        "With years of hands-on experience, we deliver software that works seamlessly and scales with your business.",
+        "With years of hands-on experience, we deliver software that works reliably and scales with your business.",
     },
     {
       title: "Tailored Solutions",
@@ -113,9 +116,10 @@ export const FOOTER_CONTENT = {
     email: "info@lyseibug.com",
     phone: "+91 6238 712 791",
     addressLines: [
-      "Venture Lab, SSMPTC",
-      "Tirur, Kerala  676105",
-      "India",
+      "Painattu Complex",
+      "Arogyappadi, Vailathur ",
+      "Kerala, 676106",
+      "India"
     ],
   },
   socials: [
@@ -140,7 +144,7 @@ export const FOOTER_CONTENT = {
       title: "Utility",
       links: [
         { label: "FAQs", href: "/faq" },
-        {label: "Privacy & Policy", href:"/privacy-policy"}
+        { label: "Privacy Policy", href: "/privacy-policy" }
       ],
     },
     {
@@ -180,7 +184,7 @@ export const FAQ_CONTENT = {
     },
     {
       q: "Do you provide post-launch support?",
-      a: "Yes. We offer maintenance plans, uptime monitoring, bug fixes, enhancements, and scheduled updates based on your needs.",
+      a: "Yes. We offer maintenance plans, uptime monitoring, bug fixes, improvements, and scheduled updates based on your needs.",
     },
     {
       q: "Can you work with our existing codebase?",
@@ -188,7 +192,7 @@ export const FAQ_CONTENT = {
     },
     {
       q: "What technologies do you use?",
-      a: "We choose modern, proven stacks based on the problem—covering web, mobile, backend, and cloud. We prioritize reliability and long-term maintainability.",
+      a: "We choose modern, proven stacks based on the problem (web, mobile, backend, and cloud). We prioritize reliability and long-term maintainability.",
     },
   ],
 } as const;
