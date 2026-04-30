@@ -27,7 +27,6 @@ export default function Navbar() {
             width={32}
             height={32}
             className="h-8 w-8 object-contain"
-            priority
           />
           <span>{BRAND_NAME}</span>
         </Link>

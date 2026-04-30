@@ -62,7 +62,6 @@ export default function WhyUs() {
                 width={960}
                 height={1387}
                 className="h-auto w-full object-cover"
-                priority
               />
             </div>
           </div>

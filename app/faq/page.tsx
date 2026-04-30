@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: FAQ_CONTENT.description,
   alternates: { canonical: absoluteUrl("/faq") },
   openGraph: buildOpenGraph({
-    title: `FAQs | ${BRAND_NAME}`,
+    title: `Software Development FAQs | ${BRAND_NAME}`,
     description: FAQ_CONTENT.description,
     url: absoluteUrl("/faq"),
   }),

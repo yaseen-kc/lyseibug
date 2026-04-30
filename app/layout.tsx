@@ -4,6 +4,8 @@ import { Poppins } from "next/font/google";
 import Footer from "@/components/Common/Footer";
 import type { Metadata, Viewport } from "next";
 import { BRAND_NAME } from "@/constants/content";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import {
   DEFAULT_SEO,
   SITE_URL,
@@ -88,6 +90,8 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

@@ -22,7 +22,7 @@ const SEO_OVERRIDES: Record<
   { title: string; description: string; keywords: string[] }
 > = {
   "web-development": {
-    title: "Web Development Services | Custom Websites & Web Apps | Lyseibug",
+    title: "Web Development Services | Lyseibug",
     description:
       "Custom web development services for fast, secure, SEO‑optimized websites and web apps. Improve Core Web Vitals, search rankings, and conversions.",
     keywords: [
@@ -35,7 +35,7 @@ const SEO_OVERRIDES: Record<
     ],
   },
   "mobile-app-development": {
-    title: "Mobile App Development | iOS & Android Apps | Lyseibug",
+    title: "Mobile App Development | Lyseibug",
     description:
       "End‑to‑end mobile app development for iOS & Android—user‑centric design, high performance, secure architecture, and faster time‑to‑market.",
     keywords: [
@@ -48,7 +48,7 @@ const SEO_OVERRIDES: Record<
     ],
   },
   "erp-solutions": {
-    title: "ERP Solutions | Custom ERP Implementation & Integration | Lyseibug",
+    title: "ERP Solutions & Integration | Lyseibug",
     description:
       "Custom ERP solutions to automate workflows, centralize data, and enable real‑time visibility—reducing costs and improving decisions.",
     keywords: [
@@ -60,8 +60,7 @@ const SEO_OVERRIDES: Record<
     ],
   },
   "software-rescue": {
-    title:
-      "Software Rescue | Legacy Modernization & Code Refactoring | Lyseibug",
+    title: "Software Rescue & Modernization | Lyseibug",
     description:
       "Rescue failing software projects with rapid audits, stabilization, refactoring, and delivery—turn legacy code into reliable, maintainable software.",
     keywords: [
@@ -73,8 +72,7 @@ const SEO_OVERRIDES: Record<
     ],
   },
   "it-support-consultancy": {
-    title:
-      "Managed IT Support & Consultancy | Security, Monitoring, Strategy | Lyseibug",
+    title: "Managed IT Support & Consultancy | Lyseibug",
     description:
       "Managed IT support and strategic consultancy to secure systems, ensure compliance, reduce downtime, and align IT with business goals.",
     keywords: [

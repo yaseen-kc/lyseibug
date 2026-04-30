@@ -7,18 +7,18 @@ import VisionMission from "@/components/About/VisionMission";
 import { absoluteUrl, buildOpenGraph, buildTwitterCard } from "@/constants/seo";
 
 export const metadata: Metadata = {
-  title: "About Lyseibug | Software Development Agency & IT Consulting",
+  title: "About Lyseibug | Software Agency & IT Consulting",
   description:
     "Learn about Lyseibug, your trusted partner for custom software, mobile apps, ERP solutions, and proactive IT support that fuel business growth.",
   alternates: { canonical: absoluteUrl("/about") },
   openGraph: buildOpenGraph({
-    title: "About Lyseibug | Software Development Agency & IT Consulting",
+    title: "About Lyseibug | Software Agency & IT Consulting",
     description:
       "Learn about Lyseibug, your trusted partner for custom software, mobile apps, ERP solutions, and proactive IT support that fuel business growth.",
     url: absoluteUrl("/about"),
   }),
   twitter: buildTwitterCard({
-    title: "About Lyseibug | Software Development Agency & IT Consulting",
+    title: "About Lyseibug | Software Agency & IT Consulting",
     description:
       "Learn about Lyseibug, your trusted partner for custom software, mobile apps, ERP solutions, and proactive IT support that fuel business growth.",
   }),

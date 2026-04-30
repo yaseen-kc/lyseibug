@@ -50,7 +50,6 @@ export default function AboutHero() {
               width={1600}
               height={900}
               className="h-auto w-full object-cover"
-              priority
             />
           </div>
         </div>

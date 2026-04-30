@@ -28,7 +28,6 @@ export default function VisionMission() {
                 width={960}
                 height={640}
                 className="h-auto w-full object-cover"
-                priority
               />
             </div>
           </div>
@@ -36,18 +35,18 @@ export default function VisionMission() {
           {/* Right: Mission & Approach */}
           <div className="space-y-14">
             <div>
-              <h3 className="text-2xl font-semibold text-indigo-900 sm:text-3xl">
+              <h2 className="text-2xl font-semibold text-indigo-900 sm:text-3xl">
                 {VISION_MISSION_CONTENT.mission.title}
-              </h3>
+              </h2>
               <p className="mt-3 text-base leading-7 text-slate-600 sm:text-lg">
                 {VISION_MISSION_CONTENT.mission.description}
               </p>
             </div>
 
             <div>
-              <h3 className="text-2xl font-semibold text-indigo-900 sm:text-3xl">
+              <h2 className="text-2xl font-semibold text-indigo-900 sm:text-3xl">
                 {VISION_MISSION_CONTENT.approach.title}
-              </h3>
+              </h2>
               <p className="mt-3 text-base leading-7 text-slate-600 sm:text-lg">
                 {VISION_MISSION_CONTENT.approach.description}
               </p>

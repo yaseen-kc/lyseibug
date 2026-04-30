@@ -50,7 +50,6 @@ export default function About() {
                 width={960}
                 height={640}
                 className="h-auto w-full object-cover"
-                priority
               />
             </div>
           </div>

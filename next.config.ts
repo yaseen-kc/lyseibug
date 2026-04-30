@@ -1,4 +1,5 @@
 const nextConfig = {
+  trailingSlash: false,
   allowedDevOrigins: [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
@@ -12,6 +13,20 @@ const nextConfig = {
         pathname: "/**",
       },
     ],
+  },
+  async redirects() {
+    return [
+      {
+        source: "/privacy",
+        destination: "/privacy-policy",
+        permanent: true,
+      },
+      {
+        source: "/services/it-support",
+        destination: "/services/it-support-consultancy",
+        permanent: true,
+      },
+    ];
   },
 };
 

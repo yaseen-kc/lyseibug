@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
 import CTA from "@/components/CTA";
 import ContactSection from "@/components/Contact/ContactSection";
-import { absoluteUrl, buildOpenGraph, buildTwitterCard } from "@/constants/seo";
+import { FOOTER_CONTENT } from "@/constants/content";
+import {
+  absoluteUrl,
+  buildOpenGraph,
+  buildTwitterCard,
+  buildLocalBusinessJsonLd,
+} from "@/constants/seo";
 
 export const metadata: Metadata = {
   title: "Contact Lyseibug | Schedule a Free Consultation",
@@ -22,8 +28,26 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
+  const contactJsonLd = {
+    ...buildLocalBusinessJsonLd(),
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        contactType: "customer support",
+        email: FOOTER_CONTENT.contact.email,
+        telephone: FOOTER_CONTENT.contact.phone,
+        availableLanguage: ["en"],
+      },
+    ],
+    mainEntityOfPage: absoluteUrl("/contact"),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactJsonLd) }}
+      />
       <ContactSection />
       <CTA />
     </>

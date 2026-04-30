@@ -31,7 +31,14 @@ export function buildOpenGraph(args: {
     url: args.url,
     type: "website" as const,
     siteName: BRAND_NAME,
-    images: args.images ?? [{ url: DEFAULT_SEO.ogImage }],
+    images: args.images ?? [
+      {
+        url: DEFAULT_SEO.ogImage,
+        width: 1200,
+        height: 630,
+        alt: `${BRAND_NAME} software development services`,
+      },
+    ],
   };
 }
 

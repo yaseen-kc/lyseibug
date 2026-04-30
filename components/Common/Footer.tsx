@@ -40,7 +40,6 @@ export default function Footer() {
                 width={36}
                 height={36}
                 className="h-9 w-9 object-contain"
-                priority
               />
               <span>{BRAND_NAME}</span>
             </div>
