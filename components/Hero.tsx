@@ -96,7 +96,7 @@ export default function Hero() {
           </p>
 
           {/* CTAs */}
-          <div className="mt-10 flex items-center justify-center gap-4">
+          <div className="mt-10 hidden items-center justify-center gap-4 md:flex">
             <a
               href={HERO_CONTENT.ctas.primary.href}
               className="rounded-full bg-indigo-900 px-8 py-4 text-base font-semibold text-white shadow-sm transition-colors hover:bg-indigo-800 md:text-lg"

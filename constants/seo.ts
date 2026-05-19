@@ -4,7 +4,7 @@ export const SITE_URL = "https://lyseibug.com";
 
 export const DEFAULT_SEO = {
   titleTemplate: "%s | " + BRAND_NAME,
-  defaultTitle: `${BRAND_NAME} — Software Development, Mobile Apps, ERP`,
+  defaultTitle: `${BRAND_NAME} Software Development, Mobile Apps, ERP`,
   description:
     "Lyseibug builds SEO-friendly websites, high-performance mobile apps, and scalable ERP systems, backed by proactive IT support, to accelerate your digital growth.",
   ogImage:
