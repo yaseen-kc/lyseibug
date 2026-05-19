@@ -146,7 +146,7 @@ export const CLIENTS_DATA: ClientData[] = [
       "POS",
       "Retail",
     ],
-    caseStudyUrl: "#",
+    caseStudyUrl: "/case-studies/black22",
     coverImage: "/clients/ci-black22.png",
   },
   // bab al khaleej
@@ -171,7 +171,7 @@ export const CLIENTS_DATA: ClientData[] = [
       "Stock Management",
       "Mobile App",
     ],
-    caseStudyUrl: "#",
+    caseStudyUrl: "/case-studies/bab-al-khaleej",
     coverImage: "/clients/ci-bab-al-khaleej.png",
   },
   // adorables
@@ -194,7 +194,7 @@ export const CLIENTS_DATA: ClientData[] = [
       "Manufacturing",
       "Stock Management",
     ],
-    caseStudyUrl: "#",
+    caseStudyUrl: "/case-studies/adorables",
     coverImage: "/clients/ci-adorables.png",
   },
   // // ib trading

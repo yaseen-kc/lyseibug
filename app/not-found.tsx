@@ -25,7 +25,7 @@ export default function NotFound() {
 
         <div className="text-center">
           <h1 className="mx-auto max-w-4xl text-4xl font-extrabold tracking-tight text-indigo-950 sm:text-5xl md:text-6xl">
-            404 — We couldn’t find that page
+            404 We couldn’t find that page
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg">
             The page you’re looking for doesn’t exist or may have been moved.

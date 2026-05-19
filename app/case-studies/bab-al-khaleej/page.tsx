@@ -13,108 +13,109 @@ import {
   faUsers,
   faChartLine,
   faShieldAlt,
+  faTruck,
   faBolt
 } from "@fortawesome/free-solid-svg-icons";
 
 const MODULES = [
   {
-    title: "Academic Lifecycle Engine",
+    title: "Core Trading Operations",
     tag: "01",
-    desc: "Every academic operation program setup to final results runs through a single connected system.",
+    desc: "A unified commercial backbone connecting procurement, sales, inventory, and financial operations into one seamless workflow.",
     items: [
-      "Program & course configuration",
-      "Automated timetable generation",
-      "Batch-wise attendance tracking",
-      "Internal marks entry and approval",
-      "Semester result processing and publication"
+      "Purchase cycle management",
+      "Sales order and invoicing workflows",
+      "Multi-stage procurement approvals",
+      "Customer and supplier management",
+      "Real-time stock visibility"
     ]
   },
   {
-    title: "Faculty Operations Portal",
+    title: "Inventory & Warehouse Intelligence",
     tag: "02",
-    desc: "Built to eliminate the administrative burden on instructors so they can focus on teaching.",
+    desc: "Complete stock visibility across warehouses with automated movement tracking and inventory accuracy.",
     items: [
-      "One-click attendance marking",
-      "Inline internal marks entry",
-      "Live syllabus completion tracking",
-      "Student performance and risk flags",
-      "Survey creation and requisition management"
+      "Real-time stock monitoring",
+      "Warehouse transfer workflows",
+      "Batch and item-level tracking",
+      "Low-stock alerts and replenishment planning",
+      "Inventory valuation and reporting"
     ]
   },
   {
-    title: "Student Self-Service Platform",
+    title: "Manufacturing & Production Control",
     tag: "03",
-    desc: "A mobile-first hub that gives students complete control over their academic life without going to the office.",
+    desc: "Production planning and execution integrated directly with inventory, procurement, and accounting.",
     items: [
-      "Live attendance and result access",
-      "Timetable, resources, and announcements",
-      "Gate pass and placement applications",
-      "Automated notifications and reminders",
-      "Offline mode for low-connectivity access"
+      "Bill of materials configuration",
+      "Production planning and scheduling",
+      "Raw material tracking",
+      "Work order management",
+      "Manufacturing cost visibility"
     ]
   },
   {
-    title: "Fee Management System",
+    title: "Finance & Accounting Suite",
     tag: "04",
-    desc: "A full financial operations module no more manual ledgers, no more reconciliation headaches.",
+    desc: "Financial operations centralized into a single source of truth with automated bookkeeping and reporting.",
     items: [
-      "Bulk fee invoice generation by batch",
-      "Real-time outstanding payment tracking",
-      "Automated defaulter identification and alerts",
-      "End-of-period reconciliation workflows",
-      "Finance analytics and collection dashboards"
+      "Accounts payable and receivable",
+      "General ledger automation",
+      "Financial statement generation",
+      "Expense and payment tracking",
+      "Cash flow monitoring"
     ]
   },
   {
-    title: "Certificate & Clearance Automation",
+    title: "Human Resource Management",
     tag: "05",
-    desc: "Multi-department approval chains that eliminate physical paperwork entirely.",
+    desc: "Workforce management streamlined through digitized HR workflows and employee tracking.",
     items: [
-      "TC, SSLC, and bonafide certificate requests",
-      "Digital hall ticket issuance",
-      "Caution deposit clearance workflow",
-      "Library and department sign-off routing",
-      "Automated certificate generation on approval"
+      "Employee records management",
+      "Attendance and leave tracking",
+      "Payroll integration",
+      "Performance monitoring",
+      "Department-wise workforce reporting"
     ]
   },
   {
-    title: "Institutional Governance Layer",
+    title: "CRM & Van Sales Mobility",
     tag: "06",
-    desc: "Real-time operational intelligence for leadership the institution runs transparent, not on intuition.",
+    desc: "A customer-first ecosystem combining CRM visibility with mobile-enabled van sales operations.",
     items: [
-      "Student academic performance analytics",
-      "Faculty attendance and productivity metrics",
-      "Institutional attendance compliance reports",
-      "Fee collection and revenue tracking",
-      "Cross-department KPI dashboards for Principal"
+      "Lead and opportunity tracking",
+      "Customer communication workflows",
+      "Mobile van sales application",
+      "Real-time order creation in field",
+      "Sales team performance visibility"
     ]
   }
 ];
 
 const OUTCOMES = [
   {
-    value: "95+",
-    label: "Custom DocTypes Built",
+    value: "7+",
+    label: "Business Functions Unified",
     icon: faLaptopCode
   },
   {
-    value: "11",
-    label: "Integrated Modules",
+    value: "1",
+    label: "Connected ERP Ecosystem",
     icon: faChartLine
   },
   {
-    value: "6",
-    label: "Role-Based Portals",
-    icon: faUsers
+    value: "100%",
+    label: "Centralized Operations",
+    icon: faShieldAlt
   },
   {
-    value: "100%",
-    label: "Paperless Workflows",
-    icon: faShieldAlt
+    value: "Mobile",
+    label: "Van Sales Enabled",
+    icon: faTruck
   }
 ];
 
-export default function SSMPolyCaseStudy() {
+export default function BabAlKhaleejCaseStudy() {
   return (
     <div className="min-h-screen bg-slate-50 font-sans">
       {/* Hero Section */}
@@ -130,7 +131,7 @@ export default function SSMPolyCaseStudy() {
             <span>/</span>
             <Link href="/our-clients" className="hover:text-white transition-colors">Our Clients</Link>
             <span>/</span>
-            <span className="text-white font-medium">SSM Polytechnic</span>
+            <span className="text-white font-medium">Bab Al Khaleej</span>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-end">
@@ -139,28 +140,28 @@ export default function SSMPolyCaseStudy() {
                 <span className="px-3 py-1 bg-indigo-900 text-indigo-200 rounded-full text-sm font-semibold tracking-wide border border-indigo-800">
                   Case Study
                 </span>
-                <span className="text-indigo-300 text-sm font-medium">Education Technology</span>
+                <span className="text-indigo-300 text-sm font-medium">Trading & Distribution</span>
               </div>
               <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
-                SSM Polytechnic
+                Bab Al Khaleej
               </h1>
               <p className="text-xl md:text-2xl text-indigo-100 leading-relaxed max-w-2xl">
-                From disconnected spreadsheets to a fully unified campus, rebuilding institutional operations from the ground up with CampusControl ERP.
+                Unifying trading, manufacturing, finance, and field sales into a single ERP ecosystem — replacing fragmented business processes with operational clarity.
               </p>
             </div>
 
             <div className="grid grid-cols-2 gap-6 bg-indigo-900/50 p-8 rounded-3xl border border-indigo-800 backdrop-blur-sm">
               <div>
                 <p className="text-indigo-300 text-sm mb-1">Client</p>
-                <p className="font-semibold text-lg">SSM Polytechnic</p>
+                <p className="font-semibold text-lg">Bab Al Khaleej</p>
               </div>
               <div>
                 <p className="text-indigo-300 text-sm mb-1">Geography</p>
-                <p className="font-semibold text-lg">Kerala, India</p>
+                <p className="font-semibold text-lg">UAE</p>
               </div>
               <div>
                 <p className="text-indigo-300 text-sm mb-1">Sector</p>
-                <p className="font-semibold text-lg">Higher Education</p>
+                <p className="font-semibold text-lg">Trading & Manufacturing</p>
               </div>
               <div>
                 <p className="text-indigo-300 text-sm mb-1">Platform</p>
@@ -180,28 +181,28 @@ export default function SSMPolyCaseStudy() {
 
             {/* Challenge */}
             <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">A growing institution held back by its own processes</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6">Disconnected operations slowing business growth</h2>
               <div className="prose prose-lg prose-slate max-w-none space-y-6 text-slate-700 leading-relaxed">
-                <p>SSM Polytechnic was managing hundreds of students, dozens of faculty members, and multi-department administrative workflows all without a single connected system. Attendance was tracked manually, examination records lived in spreadsheets, fee collection had no real-time reconciliation, and student document requests involved physical paperwork routed across multiple offices.</p>
-                <p>The consequences were predictable: delayed approvals, lost records, duplicated data entry, and zero institutional visibility. Leadership couldn't see real-time performance metrics. Finance officers couldn't track defaulters without manual ledger reviews. Faculty had no centralized tool for marking attendance, entering marks, or monitoring student progress. Students had no self-service access to their own academic data.</p>
-                <p>The institution needed more than software it needed an operational overhaul. A single platform capable of digitizing every workflow, connecting every stakeholder, and giving leadership the intelligence to run a modern institution.</p>
+                <p>Bab Al Khaleej was operating across multiple business functions — procurement, sales, accounting, inventory, manufacturing, HR, and customer management — without a fully connected operational backbone. Teams worked across disconnected systems, manual tracking processes, and fragmented records that created operational inefficiencies.</p>
+                <p>Inventory visibility lacked real-time accuracy, finance teams faced reconciliation delays, and operational reporting required manual consolidation from multiple departments. Field sales operations also lacked mobility, limiting visibility into customer interactions and order tracking outside office systems.</p>
+                <p>The company needed more than a standard ERP deployment. It required a deeply connected business platform capable of bringing every operational function into a single environment — from procurement to production, finance to customer relationships, and office operations to mobile van sales.</p>
               </div>
             </div>
 
             {/* Solution */}
             <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">CampusControl rebuilt from the inside out</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6">Building a unified operational engine with ERPNext</h2>
               <div className="prose prose-lg prose-slate max-w-none space-y-6 text-slate-700 leading-relaxed">
-                <p>Lyseisbug designed and deployed CampusControl a deeply customized ERP built on ERPNext and Frappe purpose-engineered for the way polytechnic institutions actually operate.</p>
-                <p>Every user type got a purpose-built experience. Faculty can mark attendance by batch and period, enter internal marks, track syllabus completion, and monitor individual student performance.</p>
-                <p>Students access a mobile-first portal to view attendance, results, timetables, course materials, placement listings, and submit requests for gate passes or certificates.</p>
-                <p>Lyseisbug owned the entire implementation from requirement analysis and solution architecture to workflow configuration, portal development, role-based access control, automation engineering, testing, deployment, and staff onboarding.</p>
+                <p>Lyseisbug designed and implemented a customized ERPNext ecosystem tailored to Bab Al Khaleej&apos;s operational model — integrating procurement, selling, accounting, stock control, manufacturing, HRMS, CRM, and van sales into one centralized platform.</p>
+                <p>Business operations that previously worked in silos were brought into a connected workflow. Procurement connects directly with stock movement, sales automatically update inventory and accounting, and manufacturing aligns with material planning and financial tracking.</p>
+                <p>A dedicated van sales mobile application extended ERP access into the field, allowing teams to process customer orders, manage sales activity, and update transactions in real time.</p>
+                <p>The implementation covered workflow configuration, module customization, process automation, reporting architecture, user permissions, staff onboarding, and deployment.</p>
               </div>
             </div>
 
             {/* Modules */}
             <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Six systems. One coherent platform.</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-8">Six operational pillars. One connected ERP.</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {MODULES.map((module, index) => (
                   <div key={index} className="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg transition-shadow">
@@ -223,13 +224,12 @@ export default function SSMPolyCaseStudy() {
 
             {/* Outcomes */}
             <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">A campus that runs itself</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6">A business operating as one system</h2>
               <div className="prose prose-lg prose-slate max-w-none space-y-6 text-slate-700 leading-relaxed mb-12">
-                <p>CampusControl didn't just digitize SSM Polytechnic it restructured how the institution operates at every level.</p>
-                <p>Manual paperwork is gone. Approval bottlenecks are automated. Students get instant access to their own data.</p>
-                <p>Attendance that once required manual registers now happens digitally in seconds.</p>
-                <p>Certificate requests that took days of physical routing now complete in hours.</p>
-                <p>The architecture is modular and built to grow.</p>
+                <p>The ERP transformation gave Bab Al Khaleej operational visibility across departments that previously worked independently.</p>
+                <p>Procurement, inventory, finance, sales, and manufacturing now function through a shared system with synchronized data.</p>
+                <p>Financial reporting became faster, inventory accuracy improved, and operational bottlenecks reduced through automation.</p>
+                <p>The addition of a mobile van sales platform expanded ERP capabilities beyond office environments — giving field teams real-time access to customer and sales workflows.</p>
               </div>
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -251,16 +251,16 @@ export default function SSMPolyCaseStudy() {
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
                   {[
-                    "95+ customized DocTypes",
-                    "11 integrated institutional modules",
-                    "6-role access ecosystem",
-                    "Student & faculty self-service portals",
-                    "Fully automated attendance workflows",
-                    "End-to-end digital certificate lifecycle",
-                    "Real-time fee management and reporting",
-                    "Placement management with tracking",
-                    "Live institutional KPI dashboards",
-                    "Automated multi-stage approval workflows"
+                    "Buying and selling operations unified",
+                    "Integrated finance and accounting workflows",
+                    "Centralized inventory and warehouse management",
+                    "Manufacturing planning and production tracking",
+                    "HRMS and employee workflows",
+                    "CRM implementation with customer visibility",
+                    "Real-time reporting and dashboards",
+                    "Mobile-enabled van sales ecosystem",
+                    "Automated interdepartmental workflows",
+                    "Role-based access control"
                   ].map((item, idx) => (
                     <div key={idx} className="flex items-start gap-3">
                       <FontAwesomeIcon icon={faCheckCircle} className="text-indigo-400 w-4 h-4 mt-1 flex-shrink-0" />
@@ -282,21 +282,21 @@ export default function SSMPolyCaseStudy() {
                   <div className="text-sm text-slate-500 font-medium mb-1 flex items-center gap-2">
                     <FontAwesomeIcon icon={faGlobe} className="w-4 h-4" /> Website
                   </div>
-                  <Link href="https://www.ssmpoly.ac.in/" target="_blank" rel="noopener noreferrer" className="text-indigo-600 font-semibold hover:text-indigo-800 transition-colors flex items-center gap-2">
-                    ssmpoly.ac.in <FontAwesomeIcon icon={faExternalLinkAlt} className="w-3 h-3" />
+                  <Link href="https://www.babalkhaleejuae.com/" target="_blank" rel="noopener noreferrer" className="text-indigo-600 font-semibold hover:text-indigo-800 transition-colors flex items-center gap-2">
+                    babalkhaleejuae.com <FontAwesomeIcon icon={faExternalLinkAlt} className="w-3 h-3" />
                   </Link>
                 </div>
                 <div>
                   <div className="text-sm text-slate-500 font-medium mb-1 flex items-center gap-2">
                     <FontAwesomeIcon icon={faMapMarkerAlt} className="w-4 h-4" /> Location
                   </div>
-                  <div className="text-slate-900 font-semibold">Kerala, India</div>
+                  <div className="text-slate-900 font-semibold">United Arab Emirates</div>
                 </div>
                 <div>
                   <div className="text-sm text-slate-500 font-medium mb-1 flex items-center gap-2">
                     <FontAwesomeIcon icon={faIndustry} className="w-4 h-4" /> Industry
                   </div>
-                  <div className="text-slate-900 font-semibold">Polytechnic Education</div>
+                  <div className="text-slate-900 font-semibold">Trading & Manufacturing</div>
                 </div>
               </div>
 
@@ -304,17 +304,15 @@ export default function SSMPolyCaseStudy() {
                 <h3 className="text-lg font-bold text-slate-900 mb-6">Tech Stack</h3>
                 <div className="flex flex-wrap gap-2">
                   {[
-                    "ERPNext v15",
+                    "ERPNext",
                     "Frappe Framework",
                     "React",
                     "TypeScript",
                     "Python",
-                    "Tailwind CSS",
-                    "MariaDB",
                     "REST APIs",
-                    "WebSockets",
-                    "Zustand",
-                    "Vite"
+                    "MariaDB",
+                    "Mobile App",
+                    "Workflow Automation"
                   ].map((tech, idx) => (
                     <span key={idx} className="px-3 py-1.5 bg-slate-100 text-slate-700 rounded-lg text-sm font-medium">
                       {tech}
@@ -324,22 +322,20 @@ export default function SSMPolyCaseStudy() {
               </div>
 
               <div className="border-t border-gray-100 pt-8 mt-8">
-                <h3 className="text-lg font-bold text-slate-900 mb-6">Key Features</h3>
+                <h3 className="text-lg font-bold text-slate-900 mb-6">What we implemented</h3>
                 <ul className="space-y-3">
                   {[
-                    "Complete academic lifecycle management",
-                    "Six dedicated role portals",
-                    "Attendance automation",
-                    "Assessment workflows",
-                    "Fee management",
-                    "Digital certificate workflows",
-                    "Placement management",
-                    "Gate pass system",
-                    "Student clubs & activity management",
-                    "Procurement workflows",
-                    "Institutional dashboards",
-                    "Offline student portal",
-                    "SMS & app notifications",
+                    "Buying management",
+                    "Selling workflows",
+                    "Accounting automation",
+                    "Stock management",
+                    "Manufacturing operations",
+                    "HRMS implementation",
+                    "CRM integration",
+                    "Van sale mobile app",
+                    "Real-time reporting",
+                    "Workflow automation",
+                    "Centralized business data",
                     "Role-based permissions"
                   ].map((feature, idx) => (
                     <li key={idx} className="flex items-start gap-2">
