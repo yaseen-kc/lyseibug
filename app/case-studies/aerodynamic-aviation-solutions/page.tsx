@@ -9,6 +9,7 @@ import {
   faMapMarkerAlt,
   faIndustry,
   faLaptopCode,
+  faUsers,
   faChartLine,
   faShieldAlt,
   faBolt
@@ -16,103 +17,103 @@ import {
 
 const MODULES = [
   {
-    title: "Buying Management",
+    title: "Procurement & Supply Chain",
     tag: "01",
-    desc: "Centralized procurement workflows designed for vendor coordination and inventory planning.",
+    desc: "End-to-end procurement workflows designed for specialized aviation equipment and airfield systems.",
     items: [
-      "Supplier and vendor management",
-      "Purchase order workflows",
-      "Procurement approvals",
-      "Material requirement visibility",
-      "Inventory-linked purchasing"
+      "Supplier management and vendor analytics",
+      "Purchase order automation",
+      "Inventory receiving and quality inspection",
+      "Material resource planning (MRP)",
+      "Procurement approval workflows"
     ]
   },
   {
-    title: "Sales & Selling Operations",
+    title: "Sales & Retail Operations",
     tag: "02",
-    desc: "Connected sales workflows built for operational efficiency and transaction visibility.",
+    desc: "Integrated sales and distribution management connected directly to inventory and procurement.",
     items: [
-      "Sales order management",
-      "Invoice generation",
-      "Customer transaction tracking",
-      "Revenue visibility",
-      "Sales reporting workflows"
+      "Sales order processing and tracking",
+      "Retail distribution management",
+      "Pricing and discount controls",
+      "Customer relationship tracking",
+      "Real-time sales performance dashboards"
     ]
   },
   {
-    title: "Accounting & Finance",
+    title: "Finance & Accounting",
     tag: "03",
-    desc: "A centralized financial system replacing fragmented accounting processes.",
+    desc: "A centralized financial hub for complete enterprise cost, revenue, and profitability visibility.",
     items: [
+      "General ledger automation",
       "Accounts payable and receivable",
-      "Expense tracking",
-      "Financial reconciliation",
-      "Profitability reporting",
-      "Real-time financial visibility"
+      "Multi-currency transaction support",
+      "Project-based profitability tracking",
+      "Automated financial statement generation"
     ]
   },
   {
-    title: "Stock Management",
+    title: "HRMS & Workforce Management",
     tag: "04",
-    desc: "Inventory intelligence designed for real-time operational control.",
-    items: [
-      "Warehouse stock visibility",
-      "Material tracking",
-      "Inventory movement monitoring",
-      "Batch-level stock management",
-      "Real-time inventory reporting"
-    ]
-  },
-  {
-    title: "Manufacturing Operations",
-    tag: "05",
-    desc: "Production workflows streamlined for coffee manufacturing and operational efficiency.",
-    items: [
-      "Production planning",
-      "Material consumption tracking",
-      "Manufacturing workflows",
-      "Production stock visibility",
-      "Operational performance tracking"
-    ]
-  },
-  {
-    title: "HRMS & Attendance Integration",
-    tag: "06",
-    desc: "Workforce management connected with integrated attendance visibility.",
+    desc: "Digitized human resources operations bridging the gap between recruitment, attendance, and payroll.",
     items: [
       "Employee lifecycle management",
-      "Attendance data integration",
-      "Workforce tracking",
-      "Leave and HR administration",
-      "Operational accountability reporting"
+      "Automated payroll processing",
+      "Attendance and leave tracking",
+      "Performance and evaluation workflows",
+      "Workforce cost allocation"
+    ]
+  },
+  {
+    title: "Inventory & Asset Control",
+    tag: "05",
+    desc: "Complete visibility over specialized aviation infrastructure stock and organizational assets.",
+    items: [
+      "Multi-warehouse inventory tracking",
+      "Batch and serial number management",
+      "Real-time stock movement history",
+      "Low-stock automated alerts",
+      "Enterprise asset lifecycle tracking"
+    ]
+  },
+  {
+    title: "Enterprise Reporting Layer",
+    tag: "06",
+    desc: "Real-time business intelligence aggregating data across all operational departments.",
+    items: [
+      "Custom management dashboards",
+      "Cross-departmental operational analytics",
+      "Financial health monitoring",
+      "Supply chain efficiency metrics",
+      "Automated scheduled reports"
     ]
   }
 ];
 
 const OUTCOMES = [
   {
-    value: "6+",
-    label: "Connected Systems",
+    value: "1",
+    label: "Unified ERP System",
     icon: faLaptopCode
   },
   {
-    value: "1",
-    label: "Unified ERP Platform",
+    value: "360°",
+    label: "Financial Visibility",
     icon: faChartLine
   },
   {
-    value: "100%",
-    label: "Centralized Workflows",
+    value: "Zero",
+    label: "Data Silos",
     icon: faShieldAlt
   },
   {
-    value: "Real-time",
-    label: "Production Tracking",
-    icon: faIndustry
+    value: "Full",
+    label: "HRMS Integration",
+    icon: faUsers
   }
 ];
 
-export default function Black22CaseStudy() {
+export default function AerodynamicAviationCaseStudy() {
   return (
     <div className="min-h-screen bg-slate-50 font-sans">
       {/* Hero Section */}
@@ -128,7 +129,7 @@ export default function Black22CaseStudy() {
             <span>/</span>
             <Link href="/our-clients" className="hover:text-white transition-colors">Our Clients</Link>
             <span>/</span>
-            <span className="text-white font-medium">Black 22</span>
+            <span className="text-white font-medium">Aerodynamic Aviation Solutions</span>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-end">
@@ -137,32 +138,32 @@ export default function Black22CaseStudy() {
                 <span className="px-3 py-1 bg-indigo-900 text-indigo-200 rounded-full text-sm font-semibold tracking-wide border border-indigo-800">
                   Case Study
                 </span>
-                <span className="text-indigo-300 text-sm font-medium">Coffee Manufacturing & Retail Operations</span>
+                <span className="text-indigo-300 text-sm font-medium">Aviation Infrastructure</span>
               </div>
               <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
-                Black 22
+                Aerodynamic Aviation
               </h1>
               <p className="text-xl md:text-2xl text-indigo-100 leading-relaxed max-w-2xl">
-                Unifying retail, production, finance, inventory, and workforce operations into a single intelligent system — purpose-built for a fast-growing specialty coffee brand.
+                Building a centralized enterprise operations platform to unify procurement, sales, retail, human resources, and financial workflows for a leading aviation infrastructure provider.
               </p>
             </div>
 
             <div className="grid grid-cols-2 gap-6 bg-indigo-900/50 p-8 rounded-3xl border border-indigo-800 backdrop-blur-sm">
               <div>
                 <p className="text-indigo-300 text-sm mb-1">Client</p>
-                <p className="font-semibold text-lg">Black 22</p>
+                <p className="font-semibold text-lg">Aerodynamic Aviation Solutions</p>
               </div>
               <div>
                 <p className="text-indigo-300 text-sm mb-1">Geography</p>
-                <p className="font-semibold text-lg">Bahrain</p>
+                <p className="font-semibold text-lg">UAE</p>
               </div>
               <div>
                 <p className="text-indigo-300 text-sm mb-1">Sector</p>
-                <p className="font-semibold text-lg">Specialty Coffee Manufacturing & Retail</p>
+                <p className="font-semibold text-lg">Aviation Infrastructure</p>
               </div>
               <div>
                 <p className="text-indigo-300 text-sm mb-1">Platform</p>
-                <p className="font-semibold text-lg">ERPNext / Frappe</p>
+                <p className="font-semibold text-lg">Enterprise ERP</p>
               </div>
             </div>
           </div>
@@ -178,28 +179,27 @@ export default function Black22CaseStudy() {
 
             {/* Challenge */}
             <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">Scaling a growing coffee brand without operational bottlenecks</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6">Disconnected workflows hindering enterprise scale</h2>
               <div className="prose prose-lg prose-slate max-w-none space-y-6 text-slate-700 leading-relaxed">
-                <p>Black 22 had evolved into a fast-growing specialty coffee brand with expanding retail operations, coffee production requirements, workforce management needs, and increasing transactional complexity. Managing procurement, sales, accounting, manufacturing, and stock movement across operational touchpoints required stronger process visibility and centralized control.</p>
-                <p>Inventory synchronization between operational units, manufacturing visibility for roasted products, employee attendance tracking, and financial reporting workflows needed to operate through one connected system rather than fragmented tools and manual coordination.</p>
-                <p>The business required more than software implementation — it needed an operational backbone capable of connecting retail, manufacturing, finance, and workforce processes into a single scalable ecosystem.</p>
+                <p>Aerodynamic Aviation Solutions operates in the highly specialized sector of aviation infrastructure and airfield systems, where precision, timeliness, and financial accuracy are critical. However, managing enterprise operations across fragmented systems for procurement, sales, and HR created operational bottlenecks. Disconnected tools meant that supply chain data wasn&apos;t instantly reflected in financial reporting, and workforce management operated in a silo.</p>
+                <p>Procurement of specialized aviation equipment requires rigorous quality checks and vendor tracking, which were difficult to manage without a centralized system. Similarly, sales and retail distribution lacked a unified connection to the overarching inventory, leading to delays in order fulfillment and forecasting inaccuracies.</p>
+                <p>To support their enterprise scale, they needed to move away from isolated software and adopt a unified ERP ecosystem. A system that could seamlessly connect their complex procurement cycles, manage retail and sales distribution, track human resources, and consolidate financial accounting into a single source of truth.</p>
               </div>
             </div>
 
             {/* Solution */}
             <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">A unified operational layer for coffee retail and production</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6">A unified ERP architecture for aviation operations</h2>
               <div className="prose prose-lg prose-slate max-w-none space-y-6 text-slate-700 leading-relaxed">
-                <p>A customized ERPNext ecosystem was implemented to centralize Black 22&apos;s operational workflows — connecting procurement, sales, inventory, accounting, production, HR, and attendance systems into one streamlined platform.</p>
-                <p>Buying and supplier management workflows were digitized to improve procurement visibility and inventory planning. Selling operations were integrated to provide centralized order and transaction management across business touchpoints.</p>
-                <p>Manufacturing capabilities were implemented to streamline production workflows for roasted coffee operations, material planning, and stock consumption visibility — ensuring tighter control between procurement and production requirements.</p>
-                <p>Accounting operations were consolidated to improve financial reporting, reconciliation, and operational visibility. HRMS capabilities enabled employee lifecycle management, while attendance data integration eliminated fragmented workforce tracking and improved operational accountability.</p>
+                <p>A comprehensive enterprise resource planning (ERP) platform was architected to replace Aerodynamic&apos;s fragmented processes. The solution centralized their core operations—procurement, sales, accounting, and HRMS—into a cohesive digital environment tailored for the aviation infrastructure industry.</p>
+                <p>The procurement and supply chain modules were tightly integrated with sales and retail operations, ensuring complete visibility from sourcing specialized airfield components to final delivery. Financial workflows were automated to provide real-time tracking of expenses, revenues, and profitability at both the project and enterprise levels. Every transaction now flows automatically into the general ledger, significantly reducing manual data entry and reconciliation time.</p>
+                <p>Additionally, a complete Human Resource Management System (HRMS) was deployed to manage the entire employee lifecycle. From tracking attendance and processing automated payroll to evaluating performance, the HRMS links workforce operations directly to financial accounting, providing a true picture of operational costs.</p>
               </div>
             </div>
 
             {/* Modules */}
             <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-8">Six connected systems. One operational ecosystem.</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-8">Six operational pillars. One connected enterprise.</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {MODULES.map((module, index) => (
                   <div key={index} className="bg-white p-8 rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg transition-shadow">
@@ -208,10 +208,10 @@ export default function Black22CaseStudy() {
                     <p className="text-slate-600 mb-6 text-sm">{module.desc}</p>
                     <ul className="space-y-3">
                       {module.items.map((item, idx) => (
-                        <li key={idx} className="flex items-start gap-3">
-                          <FontAwesomeIcon icon={faCheckCircle} className="text-green-500 w-4 h-4 mt-1 flex-shrink-0" />
-                          <span className="text-slate-700 text-sm leading-relaxed">{item}</span>
-                        </li>
+                       <li key={idx} className="flex items-start gap-3">
+                         <FontAwesomeIcon icon={faCheckCircle} className="text-green-500 w-4 h-4 mt-1 flex-shrink-0" />
+                         <span className="text-slate-700 text-sm leading-relaxed">{item}</span>
+                       </li>
                       ))}
                     </ul>
                   </div>
@@ -221,11 +221,10 @@ export default function Black22CaseStudy() {
 
             {/* Outcomes */}
             <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">A scalable operational foundation</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6">Streamlined operations built for the aviation sector</h2>
               <div className="prose prose-lg prose-slate max-w-none space-y-6 text-slate-700 leading-relaxed mb-12">
-                <p>The ERP implementation enabled Black 22 to move from fragmented operational workflows to a connected system where procurement, inventory, production, finance, and workforce management operate through a unified platform.</p>
-                <p>Manufacturing and stock workflows gained stronger visibility, accounting processes became centralized, attendance tracking became integrated, and leadership gained better operational insight across departments.</p>
-                <p>The result was a scalable digital infrastructure capable of supporting Black 22&apos;s continued growth in specialty coffee retail and production operations.</p>
+                <p>The implementation transformed Aerodynamic Aviation Solutions into a fully connected enterprise. By unifying procurement, sales, HR, and finance into a single ecosystem, the organization eliminated data silos and manual reconciliation processes.</p>
+                <p>The seamless flow of information from the supply chain to accounting ensures real-time financial visibility, while the integrated HRMS streamlines workforce management. The new operational platform provides the scalability, accountability, and precision required to support complex aviation infrastructure projects across the UAE.</p>
               </div>
 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -247,16 +246,16 @@ export default function Black22CaseStudy() {
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
                   {[
-                    "End-to-end procurement and buying workflows",
-                    "Integrated selling and operational transaction management",
-                    "Centralized accounting and finance operations",
-                    "Real-time stock visibility and inventory management",
-                    "Manufacturing workflows for production operations",
-                    "HRMS for employee and workforce administration",
-                    "Attendance data integration and workforce tracking",
-                    "Cross-department operational visibility",
-                    "Automated reporting and business insights",
-                    "Unified ERP ecosystem across retail and production"
+                    "End-to-end procurement and supply chain automation",
+                    "Integrated sales and retail distribution management",
+                    "Centralized financial accounting and general ledger",
+                    "Comprehensive HRMS and automated payroll",
+                    "Real-time inventory and asset tracking",
+                    "Project-based profitability and cost allocation",
+                    "Cross-departmental management dashboards",
+                    "Automated inter-departmental workflows",
+                    "Role-based access and security controls",
+                    "Scalable architecture for future expansion"
                   ].map((item, idx) => (
                     <div key={idx} className="flex items-start gap-3">
                       <FontAwesomeIcon icon={faCheckCircle} className="text-indigo-400 w-4 h-4 mt-1 flex-shrink-0" />
@@ -278,21 +277,21 @@ export default function Black22CaseStudy() {
                   <div className="text-sm text-slate-500 font-medium mb-1 flex items-center gap-2">
                     <FontAwesomeIcon icon={faGlobe} className="w-4 h-4" /> Website
                   </div>
-                  <Link href="https://www.black22.net/" target="_blank" rel="noopener noreferrer" className="text-indigo-600 font-semibold hover:text-indigo-800 transition-colors flex items-center gap-2">
-                    black22.net <FontAwesomeIcon icon={faExternalLinkAlt} className="w-3 h-3" />
+                  <Link href="https://aerodynamicuae.com/" target="_blank" rel="noopener noreferrer" className="text-indigo-600 font-semibold hover:text-indigo-800 transition-colors flex items-center gap-2">
+                    aerodynamicuae.com <FontAwesomeIcon icon={faExternalLinkAlt} className="w-3 h-3" />
                   </Link>
                 </div>
                 <div>
                   <div className="text-sm text-slate-500 font-medium mb-1 flex items-center gap-2">
                     <FontAwesomeIcon icon={faMapMarkerAlt} className="w-4 h-4" /> Location
                   </div>
-                  <div className="text-slate-900 font-semibold">Bahrain</div>
+                  <div className="text-slate-900 font-semibold">UAE</div>
                 </div>
                 <div>
                   <div className="text-sm text-slate-500 font-medium mb-1 flex items-center gap-2">
                     <FontAwesomeIcon icon={faIndustry} className="w-4 h-4" /> Industry
                   </div>
-                  <div className="text-slate-900 font-semibold">Coffee Manufacturing & Retail</div>
+                  <div className="text-slate-900 font-semibold">Aviation Infrastructure</div>
                 </div>
               </div>
 
@@ -300,13 +299,13 @@ export default function Black22CaseStudy() {
                 <h3 className="text-lg font-bold text-slate-900 mb-6">Tech Stack</h3>
                 <div className="flex flex-wrap gap-2">
                   {[
-                    "ERPNext",
-                    "Frappe Framework",
+                    "ERP Framework",
                     "React",
                     "TypeScript",
                     "Python",
-                    "REST APIs",
                     "MariaDB",
+                    "HRMS",
+                    "Procurement APIs",
                     "Workflow Automation"
                   ].map((tech, idx) => (
                     <span key={idx} className="px-3 py-1.5 bg-slate-100 text-slate-700 rounded-lg text-sm font-medium">
@@ -320,16 +319,14 @@ export default function Black22CaseStudy() {
                 <h3 className="text-lg font-bold text-slate-900 mb-6">What we implemented</h3>
                 <ul className="space-y-3">
                   {[
-                    "End-to-end procurement and buying workflows",
-                    "Integrated selling and operational transaction management",
-                    "Centralized accounting and finance operations",
-                    "Real-time stock visibility and inventory management",
-                    "Manufacturing workflows for production operations",
-                    "HRMS for employee and workforce administration",
-                    "Attendance data integration and workforce tracking",
-                    "Cross-department operational visibility",
-                    "Automated reporting and business insights",
-                    "Unified ERP ecosystem across retail and production"
+                    "Procurement workflows",
+                    "Sales & retail operations",
+                    "Financial accounting",
+                    "HR & payroll management",
+                    "Inventory control",
+                    "Automated reporting",
+                    "Business intelligence dashboards",
+                    "Role-based permissions"
                   ].map((feature, idx) => (
                     <li key={idx} className="flex items-start gap-2">
                       <div className="w-1.5 h-1.5 rounded-full bg-indigo-500 mt-2 flex-shrink-0" />

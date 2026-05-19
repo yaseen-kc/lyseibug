@@ -3,17 +3,14 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faArrowRight,
   faExternalLinkAlt,
   faCheckCircle,
   faGlobe,
   faMapMarkerAlt,
   faIndustry,
   faLaptopCode,
-  faUsers,
   faChartLine,
   faShieldAlt,
-  faTruck,
   faBolt
 } from "@fortawesome/free-solid-svg-icons";
 

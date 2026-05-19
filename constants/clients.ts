@@ -55,7 +55,7 @@ export const CLIENTS_DATA: ClientData[] = [
       "Fleet Management",
       "HRMS",
     ],
-    caseStudyUrl: "#",
+    caseStudyUrl: "/case-studies/mappbee",
     coverImage: "/clients/ci-mappbee.png",
 
   },
@@ -76,7 +76,7 @@ export const CLIENTS_DATA: ClientData[] = [
       "Engineering",
       "AI",
     ],
-    caseStudyUrl: "#",
+    caseStudyUrl: "/case-studies/floreat",
     coverImage: "/clients/ci-floreat.png",
   },
   // aerodynamic aviation solutions
@@ -98,7 +98,9 @@ export const CLIENTS_DATA: ClientData[] = [
       "Accounting",
       "Retail",
     ],
-    caseStudyUrl: "#",
+    caseStudyUrl: "/case-studies/aerodynamic-aviation-solutions",
+    coverImage: "/clients/ci-aerodynamic.png",
+
   },
   // ssm polytechnic college
   {

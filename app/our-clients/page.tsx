@@ -138,7 +138,8 @@ export default function OurClientsPage() {
         {filteredClients.length === 0 && (
           <div className="text-center py-20 bg-white rounded-3xl border border-gray-200 border-dashed">
             <h3 className="text-lg font-medium text-slate-900 mb-1">No clients found</h3>
-            <p className="text-slate-500">We don't have any clients in this category yet.</p>
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+            <p className="text-slate-500">We don&apos;t have any clients in this category yet.</p>
           </div>
         )}
       </section>
